@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    width: 65%;
+    height: auto;
+    background: white;
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.logo {
+    font-size: xx-large;
+    padding: 30px 0 30px 30px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+nav li a:hover {
+    opacity: 0.9;
+    background-color: aquamarine;
+}
+article {
+    width: 99.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gainsboro;
+    clear: both;
+}
+article p {
+    padding: 5px 6px 5px 5px;
+    line-height: 1.5;
+}
+article .konten {
+    width: 23.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+article .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+article .isi .judul {
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+article .isi p {
+    margin-top: 0px;
+}
+article .isi img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+article .konten img {
+    width: 98.5%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+}
+article .konten:hover {
+    opacity: 0.9;
+}
