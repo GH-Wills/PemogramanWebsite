@@ -1,0 +1,126 @@
+/* ===== MODERN ADMIN PANEL STYLE ===== */
+:root {
+  --primary: #3b82f6;       /* Blue */
+  --primary-dark: #2563eb;
+  --secondary: #10b981;     /* Emerald */
+  --danger: #ef4444;        /* Red */
+  --text-dark: #1f2937;     /* Slate-800 */
+  --bg-light: #f9fafb;
+  --gray: #6b7280;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2, h3 {
+  color: var(--primary-dark);
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: var(--primary-dark);
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #e5e7eb;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+tr:hover {
+  background-color: #e5e7eb;
+}
+
+img.product-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
